@@ -1,0 +1,66 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore operating system files
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignore log files
+*.log
+
+# Ignore dependency directories (e.g., Node.js, Python, etc.)
+node_modules/
+bower_components/
+.env
+
+# Ignore build directories (e.g., for web development or C++)
+dist/
+build/
+out/
+
+# Ignore IDE project files (for IntelliJ IDEA, Eclipse, etc.)
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+
+# Ignore compiled source files
+*.class
+*.exe
+*.out
+*.o
+*.a
+*.so
+
+# Ignore package managers and Python virtual environments
+venv/
+.env/
+
+# Ignore test files and coverage
+coverage/
+*.lcov
+*.test.js
+*.test.ts
+
+# Ignore documentation and non-essential files
+*.pdf
+*.md
+*.xls
+*.csv
+
+# Ignore logs, temporary files, and backups
+*.bak
+*.swp
+*.swo
+
+# Ignore sensitive information files
+*.env
+*.secret
